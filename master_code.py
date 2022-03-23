@@ -1,3 +1,3 @@
 import emission_model as em
-a = em.falcon_9(218150)
+a = em.falcon_heavy(1397000)
 print(a)
