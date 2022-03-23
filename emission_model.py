@@ -1,5 +1,6 @@
 import numpy as np
 import math 
+import pandas as pd
 
 def soyuz_FG(hypergolic,kerosene):
     alumina_emission = (hypergolic*1*0.001)+(kerosene*1*0.05)
