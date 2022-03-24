@@ -19,6 +19,7 @@ def falcon_9(kerosene):
     particulate_matter = (kerosene*0.001*0.22)+(kerosene*0.05*1)
     photo_oxidation = (kerosene*0.0456*0.528)+(kerosene*0.001*1)
     return {'Aluminium Oxides': alumina_emission, 'Sulphur Oxides': sulphur_emission, 'Carbon Oxides': carbon_emission, 'Cfc Gases': cfc_gases, 'Particulate Matter': particulate_matter, 'Photochemical Oxidation': photo_oxidation}
+
 def falcon_heavy(kerosene):
     alumina_emission = (kerosene*0.05)
     sulphur_emission = (kerosene*0.001*0.7)
@@ -27,6 +28,7 @@ def falcon_heavy(kerosene):
     particulate_matter = (kerosene*0.001*0.22)+(kerosene*0.05*1)
     photo_oxidation = (kerosene*0.0456*0.528)+(kerosene*0.001*1)
     return {'Aluminium Oxides': alumina_emission, 'Sulphur Oxides': sulphur_emission, 'Carbon Oxides': carbon_emission, 'Cfc Gases': cfc_gases, 'Particulate Matter': particulate_matter, 'Photochemical Oxidation': photo_oxidation}
+
 def ariane(hypergolic,solid,cryogenic):
     alumina_emission = (solid*0.33*1)+(hypergolic*0.001*1)
     sulphur_emission = (solid*0.005*0.7)+(cryogenic*0.001*0.7)+(hypergolic*0.001*0.7)+(solid*0.15*0.88)
