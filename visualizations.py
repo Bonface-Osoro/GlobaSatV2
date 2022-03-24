@@ -9,4 +9,4 @@ palette = sns.color_palette("husl")
 a4_dims = (10, 5)
 sns.set_style('darkgrid')
 
-#Actual plotting
+#Actual plotting of the graphs
