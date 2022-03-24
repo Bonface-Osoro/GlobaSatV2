@@ -8,4 +8,4 @@ from matplotlib import pyplot
 palette = sns.color_palette("husl")
 a4_dims = (10, 5)
 sns.set_style('darkgrid')
-fig, ax = pyplot.subplots(figsize=a4_dims)
+
