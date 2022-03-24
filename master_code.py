@@ -1,3 +1,3 @@
 import emission_model as em
-a = em.falcon_9(218150)
+a = em.ariane(10000,480000,184900)
 print(a)
